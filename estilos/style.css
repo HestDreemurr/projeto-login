@@ -23,14 +23,15 @@ main {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  
+
   background-color: white;
   width: 250px;
-  height: 500px;
+  height: 550px;
   overflow: hidden;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+  transform: translate(-50%, -50%);
   transition: width 0.3s, height 0.3s;
   transition-timing-function: ease;
   
@@ -57,4 +58,69 @@ main {
 
 #login p {
   font-size: 0.8em;
+  margin: 10px 0px;
+}
+
+.campo {
+  background-color: purple;
+  border-radius: 8px;
+  margin: 5px 0px;
+  height: 40px;
+  border: 2px solid purple;
+}
+
+.campo > span {
+  width: 40px;
+  font-size: 2em;
+  color: white;
+  padding: 5px;
+}
+
+.campo input {
+  background-color: #41e635;
+  border: none;
+  width: calc(100% - 64px);
+  border-radius: 8px;
+  height: 75%;
+  font-size: 1em;
+  padding: 4px;
+  transform: translateY(-12px);
+}
+
+.campo input:focus {
+  background-color: white;
+}
+
+input[type=submit] {
+  display: block;
+  background-color: green;
+  color: white;
+  height: 40px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+
+input[type=submit]:hover {
+  background-color: #46e800;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 5px;
+  height: 40px;
+  text-decoration: none;
+  color: green;
+  padding-top: 5px;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: lime;
 }
