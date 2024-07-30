@@ -32,12 +32,20 @@
 
   #imagem {
     height: 100%;
-    width: 50%;
-    float: left;
+    width: 45%;
+    float: right;
   }
 
   #form {
     width: 50%;
-    float: right;
+    float: left;
+  }
+
+  #login h1 {
+    font-size: 2em;
+  }
+
+  #login p {
+    font-size: 1.2em;
   }
 }
